@@ -16,7 +16,7 @@ namespace pbo_gui_task_1
             dataGridView1.Columns.Add("Hasil Panen", "Hasil Panen(Ton)");
             dataGridView1.Columns.Add("Harga Jual", "Harga Jual / Ton");
 
-            dataGridView1.Rows.Add(new object[] { "Padi", 5, 10, 2500000});
+            dataGridView1.Rows.Add(new object[] { "Padi", 5, 10, 2500000 });
 
         }
 
@@ -27,7 +27,7 @@ namespace pbo_gui_task_1
                 if (formInput.ShowDialog() == DialogResult.OK)
                 {
                     DataTanaman newTanaman = formInput.GetDataTanaman();
-                    
+
                     dataGridView1.Rows.Add(new object[]
                     {
                         newTanaman.NamaTanaman,

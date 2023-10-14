@@ -69,7 +69,7 @@
             Controls.Add(btnAddData);
             Controls.Add(dataGridView1);
             Name = "dataPertanian";
-            Text = "Data Pertanian 2";
+            Text = "Data Pertanian";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataTanamanBindingSource).EndInit();
             ResumeLayout(false);
